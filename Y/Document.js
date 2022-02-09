@@ -1,4 +1,3 @@
-
 $(function() {
 
     $(".bars").on("click", function() {
