@@ -4,6 +4,7 @@ body {
     max-width: 100%;
 }
 
+
 .bars {
     padding: 5px 10px;
     margin: 0 10px;
@@ -59,41 +60,73 @@ body {
 }
 
 /* main */
-#main .section { 
+#main  { 
+    margin: 0;
+    padding: 0;
     background-color: rgb(229, 230, 235);
 }
 
 
 
 main .position .main1 {
-    margin-bottom: 0;
     padding-bottom: 50px;
-    padding-top: 100px;
+    padding-top: 30px;
     background-color: rgb(6, 13, 56);
 }
 
 .position h1{
+    margin: 0;
     text-align: center;
-    margin:  2% 0;
     font-size: 4rem;
     color: rgb(0, 0, 0);
 }
 
 .position .main1 h2{
-    font-size: 3rem;
-    padding: 0;
+    padding: 0 10px;
+    font-size: 2.25rem;
+    margin-bottom: 0px;
     color:  rgb(255, 255, 255);
 }
 
 .position .main1 h3 {
-    font-size: 2rem;
+    padding: 0 10px;
+    font-size: 1.6rem;
     color: rgb(255, 255, 255);
 }
 
+
+
 .position .main1 p {
+    padding: 0 10px;
     color: rgb(255, 255, 255);
     display: block;
-    font-size: 1.8rem;    
+    font-size: 1rem;    
+}
+
+.main2 {
+    margin-top: 10px;
+}
+
+.position .main2 h2{
+    padding: 0 10px;
+    font-size: 2.25rem;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+}
+
+.position .main2 h3 {
+    padding: 0 10px;
+    font-size: 1.6rem;
+    color: rgb(31, 30, 30);
+}
+
+.position .main2 p {
+    margin-bottom: 0;
+    padding: 0 10px;
+    padding-bottom: 10px ;
+    color: rgb(33, 34, 33);
+    display: block;
+    font-size: 1rem;     
 }
 
 .image {
@@ -107,30 +140,9 @@ img {
 
 }
 
-
 main .position .main2 {
-    background-color: #d8a705;
-    margin-top: 5px;
-    padding-top: 100px;
+    background-color: #af8809;
     
-}
-
-.position .main2 h2{
-    font-size: 3rem;
-    padding: 0;
-    color: rgb(0, 0, 0);
-}
-
-.position .main2 h3 {
-    font-size: 2rem;
-    color: rgb(31, 30, 30);
-}
-
-.position .main2 p {
-    padding-bottom: 10px ;
-    color: rgb(33, 34, 33);
-    display: block;
-    font-size: 1.8rem;    
 }
 
 .main2 a {
@@ -149,7 +161,6 @@ main .position .main2 {
 }
 
 .main2 p .link:hover{
-    background-color: #000;
     color: aliceblue;
 }
 
@@ -186,13 +197,13 @@ main .position .main2 {
         border-radius: 20px;
         padding: 5px 0;
         margin: 0;
-        font-size: 1rem;
+        font-size: 0.5rem;
         margin: 2px 6px;
     }
 
     .tabbar li {
         
-        font-size: 1.25rem;     
+        font-size: 1rem;     
     } 
 
     .tabC {
@@ -202,47 +213,117 @@ main .position .main2 {
     } 
 
     .tabbar ul li ul a {
-        font-size: .5rem;
         padding: 10px 20px;
 
     } 
     .tabbar li {
-        font-size: 2.5rem;     
+        font-size: 1.5rem;     
     } 
     
     .tabbar ul li ul a {
-        font-size: 1.5rem;  
+        font-size: 1rem;  
     }
 
-    .position h1{
-        text-align: center;
-        margin:  2% 0;
-        font-size: 5rem;
-        color: rgb(0, 0, 0);
-    }
     
     .position h2{
         margin: 0 0 0 10% ;
-        font-size: 3.89rem;
+    }
+    
+    .position  h3 {
+        margin: 2% 0 0 11% ;
+    }
+
+    .position  p {
+        margin: 0 12% 0 13% ;
+    
+    }
+
+    
+    .position h3 {
+        margin: 2% 0 0 11% ;
+
+    }
+    
+    .position .main1 h2{
+        padding: 0;
+        font-size: 3rem;
+        margin-bottom: 0px;
+        padding: 0;
+        color:  rgb(255, 255, 255);
+    }
+    
+    .position .main1 h3 {
+        padding: 0;
+        font-size: 2.25rem;
+        color: rgb(255, 255, 255);
+    }
+    
+    .position .main1 p {
+        padding: 0;
+        color: rgb(255, 255, 255);
+        display: block;
+        font-size: 1.5rem;     
+    }
+
+    .main2 {
+        padding-top: 150px;
+    }
+
+    .position .main2 h2{
+        margin: 0 0 0 10% ;
+        font-size: 3rem;
         padding: 0;
         color: rgb(0, 0, 0);
     }
     
-    .position h3 {
+    .position .main2 h3 {
         margin: 2% 0 0 11% ;
-        font-size: 2.35rem;
-        color:rgb(0, 0, 0);
+        font-size: 2.25rem;
+        color: rgb(31, 30, 30);
     }
     
-
-    .position p {
-        margin: 10px 12% 0 13% ;
+    .position .main2 h5 {
         display: block;
-        font-size: 1.5rem;    
     }
+    
+    .position .main2 p {
+        padding: 20px 0 0 0;
+        color: rgb(33, 34, 33);
+        display: block;
+        font-size: 1.5rem;  
+    }
+    
+    .image {
+        display: block;
+        margin: 0 auto;
+        max-width: 80%;
+    }
+    
+    .main2 p img {
+        margin-top: 50px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 1000px) {  
+    
+    body::-webkit-scrollbar {
+        background-color: rgb(138, 136, 136);
+        width: 0.67em;
+    }
+    
+    body::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(13, 13, 14, 0.897);
+    }
+    
+    body::-webkit-scrollbar-thumb {
+        border-radius: 100px;
+        background-color: rgb(57, 58, 58);
+        outline: 1px solid rgb(40, 40, 41);
+    }
+    
 
      /* /* menubras */
     
@@ -268,7 +349,6 @@ main .position .main2 {
         width: 100%;
         padding: 0;
         margin: 0  0;
-        max-width: 100%;
     }
 
     .tabbar .tabC {
@@ -280,23 +360,26 @@ main .position .main2 {
     }
 
     .tabbar ul li {
-        margin: 2px 10px;
-    }
-
-    .tabbar li {
         height: 50px;
         width: 300px;   
         display: inline-block;
         text-align: center;
         font-size: 2.25rem;
         border: 0;
-    } 
+        margin: 2px 10px;
+    }
+
     
     .tabbar ul li ul li  {
         margin: 0;
         font-size: 1.85rem; 
         padding: 3px 0;
     }
+
+    .tabbar ul li ul li a {
+        font-size: 1.5rem;
+    }
+
 
     .tabbar .tabC .drop {
         padding-bottom: 20px;
@@ -329,16 +412,73 @@ main .position .main2 {
         margin: 0;      
     }
 
+    main .position .main1 {
+        padding-bottom: 50px;
+        padding-top: 100px;
+ 
+    }
+
     h1 .section{
         padding: 100px 0;
         padding-bottom: 50px;
     }
 
-    .position h1{
-        text-align: center;
+    .section {
+        padding: 0;
         margin: 0;
+        padding: 0;
+        text-align: center;
         font-size: 5rem;
         color: rgb(0, 0, 0);
+    }
+    
+    .position .main1 h2{
+        padding: 0;
+        font-size: 3.5rem;
+        margin-bottom: 0px;
+        padding: 0;
+        color:  rgb(255, 255, 255);
+    }
+    
+    .position .main1 h3 {
+        padding: 0;
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+    }
+    
+    .position .main1 p {
+        padding: 0;
+        color: rgb(255, 255, 255);
+        display: block;
+        font-size: 2.5rem;     
+    }
+
+    .main2 {
+        padding-top: 150px;
+    }
+
+    .position .main2 h2{
+        margin: 0 0 0 10% ;
+        font-size: 3.5rem;
+        padding: 0;
+        color: rgb(0, 0, 0);
+    }
+    
+    .position .main2 h3 {
+        margin: 2% 0 0 11% ;
+        font-size: 3rem;
+        color: rgb(31, 30, 30);
+    }
+    
+    .position .main2 h5 {
+        display: block;
+    }
+    
+    .position .main2 p {
+        padding: 20px 0 0 0;
+        color: rgb(33, 34, 33);
+        display: block;
+        font-size: 2.5rem;  
     }
     
     .image {
@@ -347,7 +487,6 @@ main .position .main2 {
         max-width: 100%;
     }
     
-
     .main2 p img {
         margin-top: 50px;
         padding-top: 20px;
